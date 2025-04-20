@@ -49,7 +49,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.o
+        /Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "try_compile-v1"
@@ -60,8 +60,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-e6ctMP"
-      binary: "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-e6ctMP"
+      source: "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc"
+      binary: "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -70,10 +70,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-e6ctMP'
+        Change Dir: '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_e8d1b
-        [1/2] /usr/local/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_126ed/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_126ed.dir/build.make CMakeFiles/cmTC_126ed.dir/build
+        gmake[1]: Entering directory '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc'
+        Building C object CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj
+        /usr/local/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -81,8 +84,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/'
-         /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e8d1b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding -o /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccBlwEdj.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/'
+         /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_126ed.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding -o /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccocYbbx.s
         GNU C17 (GCC) version 14.2.0 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 14.0.0 (clang-1400.0.29.202), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -95,13 +98,18 @@ events:
          /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 4ad1ba63a15da174897c0d747b72d219
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/'
-         /usr/local/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccBlwEdj.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/'
+         /usr/local/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccocYbbx.s
         GNU assembler version 2.44 (arm-none-eabi) using BFD version (GNU Binutils) 2.44
         COMPILER_PATH=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/
         LIBRARY_PATH=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E rm -f libcmTC_e8d1b.a && /usr/local/bin/arm-none-eabi-ar qc libcmTC_e8d1b.a  CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj && /usr/local/bin/arm-none-eabi-ranlib libcmTC_e8d1b.a && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E touch libcmTC_e8d1b.a && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_126ed.a
+        /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -P CMakeFiles/cmTC_126ed.dir/cmake_clean_target.cmake
+        /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126ed.dir/link.txt --verbose=1
+        /usr/local/bin/arm-none-eabi-ar qc libcmTC_126ed.a CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj
+        /usr/local/bin/arm-none-eabi-ranlib libcmTC_126ed.a
+        gmake[1]: Leaving directory '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc'
         
       exitCode: 0
   -
@@ -132,10 +140,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-e6ctMP']
+        ignore line: [Change Dir: '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_e8d1b]
-        ignore line: [[1/2] /usr/local/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_126ed/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_126ed.dir/build.make CMakeFiles/cmTC_126ed.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc']
+        ignore line: [Building C object CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/local/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -143,8 +154,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/']
-        ignore line: [ /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e8d1b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding -o /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccBlwEdj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/']
+        ignore line: [ /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -D__USES_INITFINI__ /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_126ed.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -fdata-sections -ffunction-sections -fsigned-char -fmessage-length=0 -ffreestanding -o /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccocYbbx.s]
         ignore line: [GNU C17 (GCC) version 14.2.0 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 14.0.0 (clang-1400.0.29.202)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -157,13 +168,18 @@ events:
         ignore line: [ /usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4ad1ba63a15da174897c0d747b72d219]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/']
-        ignore line: [ /usr/local/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccBlwEdj.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/']
+        ignore line: [ /usr/local/opt/arm-none-eabi-binutils/bin/arm-none-eabi-as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj /var/folders/pv/f5nswqyn7wg2j5n_wh1dl_jm0000gp/T//ccocYbbx.s]
         ignore line: [GNU assembler version 2.44 (arm-none-eabi) using BFD version (GNU Binutils) 2.44]
         ignore line: [COMPILER_PATH=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/libexec/gcc/arm-none-eabi/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/:/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/]
         ignore line: [LIBRARY_PATH=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/lib/gcc/arm-none-eabi/14.2.0/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E rm -f libcmTC_e8d1b.a && /usr/local/bin/arm-none-eabi-ar qc libcmTC_e8d1b.a  CMakeFiles/cmTC_e8d1b.dir/CMakeCCompilerABI.c.obj && /usr/local/bin/arm-none-eabi-ranlib libcmTC_e8d1b.a && /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E touch libcmTC_e8d1b.a && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fdata-sections' '-ffunction-sections' '-fsigned-char' '-fmessage-length=0' '-ffreestanding' '-v' '-o' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_126ed.a]
+        ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -P CMakeFiles/cmTC_126ed.dir/cmake_clean_target.cmake]
+        ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126ed.dir/link.txt --verbose=1]
+        ignore line: [/usr/local/bin/arm-none-eabi-ar qc libcmTC_126ed.a CMakeFiles/cmTC_126ed.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/local/bin/arm-none-eabi-ranlib libcmTC_126ed.a]
+        ignore line: [gmake[1]: Leaving directory '/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/CMakeFiles/CMakeScratch/TryCompile-szY7Mc']
         ignore line: []
         ignore line: []
         implicit libs: []

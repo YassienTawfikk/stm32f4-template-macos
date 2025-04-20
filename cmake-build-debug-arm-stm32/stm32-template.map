@@ -23,8 +23,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x28 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
  .debug_ranges  0x00000000       0x18 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
- .debug_line    0x00000000      0x37a CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
- .debug_str     0x00000000      0x468 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_line    0x00000000      0x34a CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
+ .debug_str     0x00000000      0x445 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
  .comment       0x00000000       0x13 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
  .debug_frame   0x00000000       0x58 CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj
  .text          0x00000000        0x0 CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
@@ -395,20 +395,20 @@ LOAD CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.ob
  .debug_abbrev  0x00000000       0x59 CMakeFiles/stm32-template.dir/src/main.c.obj
  .debug_abbrev  0x00000059       0x1d CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
-.debug_line     0x00000000      0x1e9
+.debug_line     0x00000000      0x1c9
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000       0xee CMakeFiles/stm32-template.dir/src/main.c.obj
- .debug_line    0x000000ee       0xfb CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .debug_line    0x00000000       0xde CMakeFiles/stm32-template.dir/src/main.c.obj
+ .debug_line    0x000000de       0xeb CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
 .debug_frame    0x00000000       0x2c
  *(.debug_frame)
  .debug_frame   0x00000000       0x2c CMakeFiles/stm32-template.dir/src/main.c.obj
 
-.debug_str      0x00000000      0x2bd
+.debug_str      0x00000000      0x28a
  *(.debug_str)
- .debug_str     0x00000000      0x2bd CMakeFiles/stm32-template.dir/src/main.c.obj
-                                0x204 (size before relaxing)
- .debug_str     0x000002bd      0x150 CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
+ .debug_str     0x00000000      0x28a CMakeFiles/stm32-template.dir/src/main.c.obj
+                                0x1e1 (size before relaxing)
+ .debug_str     0x0000028a      0x130 CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj
 
 .debug_loc      0x00000000       0x38
  *(.debug_loc)

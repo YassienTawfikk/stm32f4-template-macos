@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template
+# Install script for directory: /Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/install_local_manifest.txt"
+  file(WRITE "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/stm32f4-template-macos/cmake-build-debug-arm-stm32/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
