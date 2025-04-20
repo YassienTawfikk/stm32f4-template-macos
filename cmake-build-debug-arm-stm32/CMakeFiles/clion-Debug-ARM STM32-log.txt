@@ -1,0 +1,12 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -DCMAKE_C_COMPILER=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/usr/local/Cellar/arm-none-eabi-gcc/14.2.0/bin/arm-none-eabi-g++ -G Ninja -S "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template" -B "/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32"
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/local/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/local/bin/arm-none-eabi-gcc
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32

@@ -1,0 +1,3 @@
+/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/stm32-template.dir
+/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/edit_cache.dir
+/Users/yassientawfik/Documents/Career/Projects/Semester_06_Projects/Embedded System/Assignment 02/Part 03/stm32f4-template/cmake-build-debug-arm-stm32/CMakeFiles/rebuild_cache.dir

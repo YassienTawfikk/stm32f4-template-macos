@@ -1,0 +1,6 @@
+# ninja log v6
+2	202	1745159536631381205	build.ninja	605be18b44cd6687
+4	238	1745159519712220044	CMakeFiles/stm32-template.dir/STM32-base-STM32Cube/CMSIS/STM32F4xx/src/system_STM32F4xx.c.obj	f76ebc63edac2e41
+7	83	1745159519714498921	CMakeFiles/stm32-template.dir/STM32-base/startup/STM32F4xx/STM32F401xE.s.obj	9f2c96f0c844301f
+238	388	1745159519945897184	stm32-template.elf	2546bb5b714d8e45
+3	123	1745159519710647700	CMakeFiles/stm32-template.dir/src/main.c.obj	8abfdc4a181fdc25
